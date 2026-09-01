@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const launchBtn = document.getElementById('launchBtn');
-
     if (launchBtn) {
         launchBtn.addEventListener('click', () => {
             const formLink = "https://docs.google.com/forms/d/e/1FAIpQLSe28A3NMllw4rYEyd6oml1wD2XxTGJ312WOOUTxfD2ZjKAaWw/viewform?usp=publish-editor";
