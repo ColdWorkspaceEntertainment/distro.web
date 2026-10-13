@@ -3,93 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cold Works Production | Distribution Gateway</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Jilet gibi modern yazı tipi -->
+    <title>Distribution closed | Cold Works Production</title>
+    <meta name="description" content="The Cold Works Production distribution and publishing service was shut down on 21 September 2026 and no longer accepts requests.">
+    <link rel="icon" href="https://coldworksproduction.com/images/logo.png?v=2">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="https://i.imgur.com/HpfJeZJ.png">
+    <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
-    <!-- Arka plandaki tatlı neon ışık süzmeleri -->
-    <div class="glow-orb orb-1"></div>
-    <div class="glow-orb orb-2"></div>
-
     <header>
         <div class="container header-container">
-            <h1 class="logo">Cold Works</h1>
+            <a class="logo" href="https://coldworksproduction.com/">Cold Works</a>
             <div class="status-badge">
-                <span class="pulse-dot"></span>
-                distro.coldworksproduction.com
+                <span class="status-dot" aria-hidden="true"></span>
+                Out of service
             </div>
         </div>
     </header>
 
     <main class="container">
-        <section class="hero-card">
-            <span class="tagline">Next-Gen Release Pipeline</span>
-            <h2>Global Distribution core</h2>
-            <p class="lead-text">
-                We bridge the gap between your raw creativity and global streaming networks. 
-                Deploy your audio assets, interactive stories, and personal brand hubs seamlessly.
-            </p>
-            
-            <!-- Modern Grid Kartları (Asla liste veya tablo değil!) -->
-            <div class="grid-container">
-                <div class="grid-item">
-                    <div class="icon-wrap">🎵</div>
-                    <h3>Composers</h3>
-                    <p>Automated ingestion and streaming release distribution exclusively powered by the <span>Freshtunes</span> core grid.</p>
-                </div>
-                
-                <div class="grid-item">
-                    <div class="icon-wrap">📖</div>
-                    <h3>Authors</h3>
-                    <p>Tailored digital narrative spaces and interactive web landing structures for contemporary storytellers.</p>
-                </div>
-                
-                <div class="grid-item">
-                    <div class="icon-wrap">⚡</div>
-                    <h3>Creators</h3>
-                    <p>High-end visual promotional architectures engineered to maximize your content discovery footprint.</p>
-                </div>
+        <section class="closed-card" aria-labelledby="closedTitle">
+            <div class="stamp" aria-hidden="true">
+                <span class="stamp-word">Closed</span>
+                <span class="stamp-date">21.09.2026</span>
             </div>
 
-            <div class="action-footer">
-                <div class="pipeline-notice">
-                    <span class="info-icon">i</span>
-                    <p><strong>Operational Rule:</strong> All music routing is handled strictly via the Freshtunes network layer to secure native artist royalties.</p>
-                </div>
-                
-                <button id="launchBtn" class="cta-btn" type="button">
-                    <span>Launch Distribution Gateway</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
+            <p class="site-name">distro.coldworksproduction.com</p>
+            <h1 id="closedTitle">Distribution is closed</h1>
+            <p class="lead-text">
+                The Cold Works Production distribution and publishing service was shut down
+                on 21 September 2026. New release requests and slot reservations are no
+                longer accepted.
+            </p>
+
+            <div class="contact-note">
+                <h2>Sent us a request before the closure?</h2>
+                <p>
+                    Write to
+                    <a href="mailto:info@coldworksproduction.com">info@coldworksproduction.com</a>
+                    and we'll get back to you about it.
+                </p>
+            </div>
+
+            <div class="actions">
+                <a class="btn btn-primary" href="https://coldworksproduction.com/">Go to Cold Works Production</a>
+                <a class="btn btn-ghost" href="https://cwplaymusic.com/">Listen to CW PLAY</a>
             </div>
         </section>
     </main>
-
-<!-- ==========================================
-     RELEASE RESERVATION SECTION 
-     ========================================== -->
-<section class="reservation-card" style="margin-top: 1.5rem; padding: 1.5rem; border: 2px dashed #74d99f; border-radius: 20px; background: #ffffff; box-shadow: 0 10px 25px rgba(116, 217, 159, 0.15); text-align: center;">
-    <span class="tagline" style="display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; opacity: 0.85;">Manual Management</span>
-    <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem; color: #2c3b33;">Release Slot Reservation</h3>
-    <p style="margin: 0 0 1rem 0; font-size: 0.9rem; color: #7c9088;">
-        Distribution requests and broadcast reservations are reviewed and managed directly and manually.
-    </p>
-    <div style="display: inline-block; padding: 0.6rem 1.2rem; background: #eafff2; border: 1px solid #bdeecb; border-radius: 12px;">
-        <span style="font-size: 0.9rem; color: #33423b;">For reservations: </span>
-        <a href="mailto:info@coldworksproduction.com" style="color: #1f8a53; font-weight: 600; text-decoration: underline; font-family: monospace;">info@coldworksproduction.com</a>
-    </div>
-</section>
 
     <footer>
         <p>&copy; 2026 Cold Works Production. Platform rights belong unconditionally to the respective creators.</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
